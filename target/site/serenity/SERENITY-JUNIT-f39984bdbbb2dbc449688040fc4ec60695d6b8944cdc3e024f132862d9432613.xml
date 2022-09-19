@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Registro de usuario" skipped="0" tests="1" time="53.48" timestamp="2021-10-19 07:39:29"><testcase name="Search for automation course"><failure message="Expected answer&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">Expected answer
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>Expected answer
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+stepdefinitions.co.com.utest.reto.uTestStepDefintions.EllaFinalizoSuRegistro(uTestStepDefintions.java:42)&#13;
+✽.Ella finalizo su registro en Utest(src/test/resources/features/iniciodesesion.feature:11)&#13;
+</system-err></testcase></testsuite>

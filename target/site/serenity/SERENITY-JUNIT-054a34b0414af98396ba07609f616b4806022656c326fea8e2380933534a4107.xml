@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Leidy quiere registrarce en la pagina web de Utest" skipped="0" tests="1" time="54.75" timestamp="2022-09-18 06:50:38"><testcase name="Ingresar Datos Personales"><failure message="&#10;Expected: an element that is present&#10;     but: no matching element found by xpath: //*[@id=&quot;mainContent&quot;]/div/div/div[1]/div/h1 was not present" type="java.lang.AssertionError">
+Expected: an element that is present
+     but: no matching element found by xpath: //*[@id="mainContent"]/div/div/div[1]/div/h1 was not present</failure><system-err>
+Expected: an element that is present
+     but: no matching element found by xpath: //*[@id="mainContent"]/div/div/div[1]/div/h1 was not present&#13;
+co.com.utest.reto.questions.QuestionRegistroExitoso.answeredBy(QuestionRegistroExitoso.java:25)&#13;
+co.com.utest.reto.questions.QuestionRegistroExitoso.answeredBy(QuestionRegistroExitoso.java:11)&#13;
+co.com.utest.reto.stepdefinitions.uTestStepDefintions.EllaFinalizoSuRegistro(uTestStepDefintions.java:53)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

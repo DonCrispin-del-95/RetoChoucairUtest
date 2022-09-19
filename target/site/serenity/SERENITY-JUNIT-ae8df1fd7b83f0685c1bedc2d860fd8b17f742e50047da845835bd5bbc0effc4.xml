@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="Andres quiere registrarce en la pagina web de Utest" skipped="0" tests="1" time="33.81" timestamp="2022-09-18 08:55:45"><testcase name="Ingresar Datos Personales"><error message="No such field co.com.utest.reto.model.UtestDatos.mensajeExitoso" type="cucumber.runtime.CucumberException">No such field co.com.utest.reto.model.UtestDatos.mensajeExitoso</error><system-err>No such field co.com.utest.reto.model.UtestDatos.mensajeExitoso&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

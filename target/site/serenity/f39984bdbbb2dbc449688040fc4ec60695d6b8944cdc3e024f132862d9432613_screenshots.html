@@ -1,0 +1,291 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<!--[if IE 7]>
+<!--<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">-->
+
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/all.min.css">
+<link rel="stylesheet" type="text/css" href="fontawesome-free-5.7.2-web/css/v4-shims.min.css">
+
+<!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><link rel="stylesheet" type="text/css" href="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.css">
+<link rel="stylesheet" type="text/css" href="chartist/dist/chartist.min.css">
+<script src="chartist/dist/chartist.min.js"></script>
+<script src="chartist/chartist-plugin-tooltip/dist/chartist-plugin-tooltip.min.js"></script>
+<!-- Required Stylesheets -->
+<link href="bootstrap-treeview/dist/bootstrap-treeview.min.css" rel="stylesheet">
+
+<!-- Required Javascript -->
+<script src="bootstrap-treeview/dist/bootstrap-treeview.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.19/datatables.min.css" rel="stylesheet" />
+<script type="text/javascript" src="datatables/1.10.19/datatables.min.js"></script>
+
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="datatables/1.10.19/datatables.bootstrap4.min.js"></script>
+<link type="text/css" href="datatables/1.10.19/datatables.bootstrap4.min.css" rel="stylesheet" />
+<link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">
+                <span class="projecttitle">Demo Project using Serenity and Cucumber</span>
+                <span class="projectsubtitle"></span>
+            </span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="130e9eb3938c50624fd4f2d56b151d73bc52b53dbadd0f77f79fa931cd0f0eb2.html">Registro De Usuario</a></span>
+                > <span class="truncate-60"><a
+                    href="f39984bdbbb2dbc449688040fc4ec60695d6b8944cdc3e024f132862d9432613.html">Search for automation course </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-10-2021 19:39</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registro De Usuario </span>
+                                    <span class="badge tag-badge" style="">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                Como usuario Leidy quiere registrarce en la pagina web de Utest
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="e4ef4831a220e0a9cbdbfec794f5c31b3fef2adf1cb8126df1cc35a6f525969c.html">Scenario1
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge" style="background:default;"
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;" href="8e3b9bd5eba0a2d944ce7d2a73335e57289cd25f71e556e1618e946dc87d7ec9.html">Stories
+                                    (tag)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></a></span>
+                            <span class="test-case-title">
+                                <span class="failing-color">Search for automation course
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Assertion error: Expected answerExpected: is (true) but: was (false)</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>java.lang.AssertionError </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>stepdefinitions.co.com.utest.reto.uTestStepDefintions.EllaFinalizoSuRegistro(uTestStepDefintions.java:42)<br />✽.Ella finalizo su registro en Utest(src/test/resources/features/iniciodesesion.feature:11)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource12225691085623255753.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="39a32e7c27ce22a7767ba766334f9cd668522c17d30507270eb27035611a29a5.png" title=" Given Leidy Quiere Registrarce En Utest" width="2560"/>
+                <img src="39a32e7c27ce22a7767ba766334f9cd668522c17d30507270eb27035611a29a5.png" title=" Leidy abrir" width="2560"/>
+                <img src="39a32e7c27ce22a7767ba766334f9cd668522c17d30507270eb27035611a29a5.png" title=" Leidy opens the Utest pagina" width="2560"/>
+                <img src="39a32e7c27ce22a7767ba766334f9cd668522c17d30507270eb27035611a29a5.png" title=" Leidy abrir (completed)" width="2560"/>
+                <img src="e6b74c0acdb3e559e2901318065924c5d02a7fb58c9dd4bc0a6cb72b760df58f.png" title=" Leidy ingreso unirce" width="2560"/>
+                <img src="e6b74c0acdb3e559e2901318065924c5d02a7fb58c9dd4bc0a6cb72b760df58f.png" title=" Leidy clicks on Boton que nos mostrara formulario de registro" width="2560"/>
+                <img src="e6b74c0acdb3e559e2901318065924c5d02a7fb58c9dd4bc0a6cb72b760df58f.png" title=" Leidy ingreso unirce (completed)" width="2560"/>
+                <img src="e6b74c0acdb3e559e2901318065924c5d02a7fb58c9dd4bc0a6cb72b760df58f.png" title=" Given Leidy Quiere Registrarce En Utest (completed)" width="2560"/>
+                <img src="71b9a61802799cfe872964aabce4fb942b1d49121c5edf4a6f4b44ffeb7b61e8.png" title=" When Ella Ingresa Datos Personales E Informacion Necesaria Para Completar Su Registro En Utest" width="2560"/>
+                <img src="71b9a61802799cfe872964aabce4fb942b1d49121c5edf4a6f4b44ffeb7b61e8.png" title=" Leidy datos personales" width="2560"/>
+                <img src="71b9a61802799cfe872964aabce4fb942b1d49121c5edf4a6f4b44ffeb7b61e8.png" title=" Leidy enters 'Leidy' into Donde escribimos el nombre" width="2560"/>
+                <img src="48979273c31bf6930e92021b2e7e8449f0f532cc883866d4a72c1a28d8d8c511.png" title=" Leidy enters 'Hernandez' into Donde escribimos el apellido" width="2560"/>
+                <img src="339bbbba4ce998ac41a49a4d6bf8eafa6c2559cec7df7f0dcdc5b1f99725ef86.png" title=" Leidy enters 'leidy420@gmail.com' into Donde escribimos el correo" width="2560"/>
+                <img src="5fb9bc14c9731297dc6ba091877e59d75343a556635555ea63f62073ebaa5c83.png" title=" Leidy select May on Donde seleccionamos el mes" width="2560"/>
+                <img src="b270c2d79a581497918a00b92bcf17cc7908e07d8daaa22812a6d5f385efe1a8.png" title=" Leidy select 10 on Donde seleccionamos el dia" width="2560"/>
+                <img src="52bd61713bd2c64756d7d6283ca74ec542d3ff4605ab0d1d6f06b7d804801f58.png" title=" Leidy select 1996 on Donde seleccionamos el a&Atilde;&plusmn;o" width="2560"/>
+                <img src="75b00436a669240b9a3f9aa1384ad4df16d1bf2812b3badc0baebb5633a97fcf.png" title=" Leidy clicks on Boton que nos dirige al formulario de registro de ubicacion" width="2560"/>
+                <img src="75b00436a669240b9a3f9aa1384ad4df16d1bf2812b3badc0baebb5633a97fcf.png" title=" Leidy datos personales (completed)" width="2560"/>
+                <img src="aa87aee43d5a9fb0362141d7b48eefb8299926058a6db6653da179a44d904f8c.png" title=" Leidy ingreso ubicacion" width="2560"/>
+                <img src="aa87aee43d5a9fb0362141d7b48eefb8299926058a6db6653da179a44d904f8c.png" title=" Leidy clicks on Donde seleccionamos nuestra ciudad" width="2560"/>
+                <img src="cdb0363635ba99b15cfc3c6a4ae2ec211afd3c8c37b366382647351d87eebd18.png" title=" Leidy clicks on Donde seleccionamos nuestro codigo postal" width="2560"/>
+                <img src="6f7f8195926b69aa842e6e8d1ed17f76d2e36d345a9766530f066989b00bdd30.png" title=" Leidy clicks on Boton que se dirige al formulario de registro de dispositivos" width="2560"/>
+                <img src="6f7f8195926b69aa842e6e8d1ed17f76d2e36d345a9766530f066989b00bdd30.png" title=" Leidy ingreso ubicacion (completed)" width="2560"/>
+                <img src="0ff53d9726d280c523c4b83b022425f4002558001f0997e68d39139af29472a1.png" title=" Leidy ingreso dispositivo" width="2560"/>
+                <img src="0ff53d9726d280c523c4b83b022425f4002558001f0997e68d39139af29472a1.png" title=" Leidy clicks on Campo que despliega las opciones de dispositivos" width="2560"/>
+                <img src="00555fb10ba38f062ecac6335ea33911fffcb8c228082de6ba135bda157c4735.png" title=" Leidy enters 'Apple' into Donde seleccionamos la marca de nuestro telefono movil" width="2560"/>
+                <img src="a463164d1571ee7e2b19878659da8d4662ffa79aeaf1b082b771a5c113aceb67.png" title=" Leidy clicks on Boton que nos muestra el ultimo formulario para completar el registro" width="2560"/>
+                <img src="a463164d1571ee7e2b19878659da8d4662ffa79aeaf1b082b771a5c113aceb67.png" title=" Leidy ingreso dispositivo (completed)" width="2560"/>
+                <img src="94c57fe3a87afd7f05f958052767982bfa001767b638dc29781d6c4c81d6907e.png" title=" Leidy completar registro" width="2560"/>
+                <img src="94c57fe3a87afd7f05f958052767982bfa001767b638dc29781d6c4c81d6907e.png" title=" Leidy enters 'Prueba123*' into Donde escribimos la contrasena" width="2560"/>
+                <img src="8d0998bd1ee6d5426d1dd63e2471e0c30da5d006827f13d7d816b78938a47feb.png" title=" Leidy enters 'Prueba123*' into Donde confirmamos la contrasena" width="2560"/>
+                <img src="1dcaca414222d896323c64b9b95445464e119bfae52ee4c229e542f77a3c1492.png" title=" Leidy clicks on Donde aceptamos los terminos " width="2560"/>
+                <img src="2a4ea0c7b6e6a1df520c7b6c99607769094e618ca0098405ddd0571a77296752.png" title=" Leidy clicks on Donde aceptamos las politicas" width="2560"/>
+                <img src="33663f81674aa35b5472c73cf2027f092fb515efccf301a5535883b35dc4f1e7.png" title=" Leidy clicks on Boton para completar y crear nuestro usuario en Utest" width="2560"/>
+                <img src="33663f81674aa35b5472c73cf2027f092fb515efccf301a5535883b35dc4f1e7.png" title=" Leidy completar registro (completed)" width="2560"/>
+                <img src="33663f81674aa35b5472c73cf2027f092fb515efccf301a5535883b35dc4f1e7.png" title=" When Ella Ingresa Datos Personales E Informacion Necesaria Para Completar Su Registro En Utest (completed)" width="2560"/>
+                <img src="2efa6b452ed2a748487846945452c6197e26b16e7f4f73bb0abf36c3c81883e5.png" title=" Then Ella finalizo su registro en Utest" width="2560"/>
+                <img src="2efa6b452ed2a748487846945452c6197e26b16e7f4f73bb0abf36c3c81883e5.png" title=" Then answer: <span class='failing-color'>FAILURE</span>" width="2560"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 2.0.90</span>
+</div>
+</body>
+</html>
